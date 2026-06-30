@@ -358,3 +358,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('Layali website initialized successfully');
 });
+// Theme Toggle
+
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon = document.getElementById("themeIcon");
+
+// Load saved theme
+if(localStorage.getItem("theme") === "day"){
+    document.body.classList.add("day-theme");
+    themeIcon.textContent = "☀️";
+}else{
+    themeIcon.textContent = "🌙";
+}
+
+themeToggle.addEventListener("click",()=>{
+
+    document.body.classList.toggle("day-theme");
+
+    if(document.body.classList.contains("day-theme")){
+        themeIcon.textContent="☀️";
+        localStorage.setItem("theme","day");
+    }else{
+        themeIcon.textContent="🌙";
+        localStorage.setItem("theme","night");
+    }
+
+});

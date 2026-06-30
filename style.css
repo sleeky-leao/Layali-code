@@ -1589,3 +1589,346 @@ section {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, var(--gold-primary), var(--gold-light));
 }
+/* =========================
+   DAY THEME
+========================= */
+
+body.day-theme {
+    background: #f5f0e6;
+    color: #111 !important;
+
+}
+
+/* Navbar */
+body.day-theme .navbar {
+    background: rgba(245,240,230,0.95);
+    color: #0a0a0a;
+}
+/* Day Theme - Hamburger Menu*/
+body.day-theme  .menu-toggle{
+    color: #000;
+}
+
+body.day-theme .menu-toggle span {
+    background: #000 !important;
+    background-image: none !important;
+}
+
+/* Hero */
+body.day-theme .hero,
+body.day-theme .collection,
+body.day-theme .about,
+body.day-theme .newsletter,
+body.day-theme .contact,
+body.day-theme .footer {
+    background: #ffffff;
+    color: #111 !important;
+}
+
+/* Logo */
+body.day-theme .logo-text,
+body.day-theme .brand-name {
+    background: linear-gradient(90deg, #000, #444, #111);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Headings */
+
+body.day-theme h1,
+body.day-theme h2,
+body.day-theme h3,
+body.day-theme h4{
+    color:#111 !important;
+}
+
+/* Paragraphs */
+
+body.day-theme p,
+body.day-theme span,
+body.day-theme li,
+body.day-theme a{
+    color:#222 !important;
+}
+
+/* Product Cards */
+
+body.day-theme .product-card{
+    background:#fff;
+}
+
+/* Buttons */
+
+body.day-theme .btn-outline{
+    border:2px solid #111;
+    color:#111 !important;
+    -webkit-text-fill-color: #111 !important;
+}
+
+body.day-theme .btn-outline:hover{
+    background:#111;
+    color:#fff;
+}
+/* Day Theme - Quick View button */
+body.day-theme .btn-quickview {
+    background: linear-gradient(135deg, var(--gold-dark), var(--gold-primary));
+    color: #000;
+    -webkit-text-fill-color: #000;
+}
+
+body.day-theme .btn-quickview:hover {
+    background: #ffffff !important;
+    background-image: none !important;
+
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+
+    border: 1px solid #000000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .15);
+}
+
+/* Day Theme - Wishlist button */
+body.day-theme .btn-wishlist:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+body.day-theme .btn-wishlist:hover svg {
+    stroke: #000000;
+}
+
+/* Footer */
+
+body.day-theme .footer{
+    background:#e7dbc5;
+}
+
+/* ======================
+   DAY MODE TEXT
+====================== */
+
+body.day-theme .logo-text,
+body.day-theme .brand-name,
+body.day-theme .section-title,
+body.day-theme .newsletter-title,
+body.day-theme .footer-tagline,
+body.day-theme .stat-number,
+body.day-theme .product-name,
+body.day-theme .current-price,
+body.day-theme .contact-text,
+body.day-theme .about-text,
+body.day-theme .hero-description,
+body.day-theme .tagline,
+body.day-theme .section-subtitle,
+body.day-theme .product-category,
+body.day-theme .section-label,
+body.day-theme .stat-label,
+body.day-theme .newsletter-text,
+body.day-theme .newsletter-note,
+body.day-theme .footer-column h4,
+body.day-theme .footer-column a,
+body.day-theme .footer-bottom p,
+body.day-theme .contact-item span,
+body.day-theme .modal-category,
+body.day-theme .modal-description,
+body.day-theme .hero-scroll span,
+body.day-theme .nav-links a,
+body.day-theme .cart-count,
+body.day-theme .placeholder-content span,
+body.day-theme .toast-message,
+body.day-theme p,
+body.day-theme span,
+body.day-theme li,
+body.day-theme h1,
+body.day-theme h2,
+body.day-theme h3,
+body.day-theme h4,
+body.day-theme h5,
+body.day-theme h6 {
+
+    background: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #111 !important;
+    color: #111 !important;
+}
+body.day-theme p:not(.modal-description),
+body.day-theme span:not(.modal-category),
+body.day-theme li,
+body.day-theme h1,
+body.day-theme h2,
+body.day-theme h3:not(.modal-title),
+body.day-theme h4,
+body.day-theme h5,
+body.day-theme h6 {
+    background: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #111 !important;
+    color: #111 !important;
+}
+/* Restore Quick View button styling in Day Theme */
+
+body.day-theme .btn-quickview {
+    background: linear-gradient(135deg, var(--gold-dark), var(--gold-primary));
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: #000;
+    color: #000;
+}
+
+body.day-theme .btn-quickview:hover {
+    background: #ffffff !important;
+    background-image: none !important;
+
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+
+    -webkit-text-fill-color: #000 !important;
+    color: #000 !important;
+
+    border: 1px solid #000;
+}
+
+
+body.day-theme .product-overlay .btn-wishlist:hover {
+    background: #ffffff !important;
+    border-color: #000 !important;
+}
+
+body.day-theme .product-overlay .btn-wishlist:hover svg {
+    stroke: #000000 !important;
+}
+body.day-theme .product-overlay {
+    background: rgba(255, 255, 255, .65);
+    backdrop-filter: blur(4px);
+}
+body.day-theme .product-card:hover .btn-wishlist {
+    background: #ffffff;
+    border-color: #000;
+}
+
+body.day-theme .product-card:hover .btn-wishlist svg {
+    stroke: #000;
+}
+/* ==========================================
+   DAY MODE - QUICK VIEW MODAL TEXT
+   ========================================== */
+
+body.day-theme .modal-content {
+    background: #111;
+    color: #ffffff;
+}
+
+body.day-theme .modal-content h3,
+body.day-theme .modal-title,
+body.day-theme .modal-category,
+body.day-theme .modal-price,
+body.day-theme .modal-description {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    background: none !important;
+}
+
+/* Close button */
+body.day-theme .modal-close {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.day-theme .modal-close:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+/* ==========================================
+   DAY MODE - QUICK VIEW MODAL FIX
+   ========================================== */
+
+body.day-theme .modal-content {
+    background: #111;
+    color: #fff;
+}
+
+body.day-theme #modalTitle,
+body.day-theme #modalCategory,
+body.day-theme #modalPrice,
+body.day-theme .modal-description {
+    background: none !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    opacity: 1 !important;
+}
+/* Mobile menu text in Day Theme */
+@media (max-width:768px) {
+
+    body.day-theme .nav-links {
+        background: #111 !important;
+    }
+
+    body.day-theme .nav-links a {
+        color: #fff !important;
+        -webkit-text-fill-color: #fff !important;
+        background: none !important;
+    }
+
+    body.day-theme .nav-links a:hover {
+        color: var(--gold-primary) !important;
+        -webkit-text-fill-color: var(--gold-primary) !important;
+    }
+
+}
+
+/* Night Mode */
+.menu-toggle span {
+    background: linear-gradient(90deg, var(--gold-primary), var(--gold-light));
+}
+
+/* Day Mode */
+body.day-theme .menu-toggle span {
+    background: #111111 !important;
+    -webkit-text-fill-color: initial !important;
+    color: initial !important;
+}
+/* ==========================================
+   DAY MODE - INPUT PLACEHOLDERS
+   ========================================== */
+
+body.day-theme .newsletter-input::placeholder,
+body.day-theme .form-group input::placeholder,
+body.day-theme .form-group textarea::placeholder {
+    color: rgba(0, 0, 0, 0.55) !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.55) !important;
+}
+body.day-theme .newsletter-input,
+body.day-theme .form-group input,
+body.day-theme .form-group textarea {
+    color: #111 !important;
+    -webkit-text-fill-color: #111 !important;
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+/* Day Theme - Our Story Button */
+body.day-theme .btn-outline {
+    background: transparent;
+    border: 2px solid #111;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Day Theme - Our Story Button Hover */ 
+body.day-theme .btn-outline:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+
+    border: 2px solid #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
